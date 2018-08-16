@@ -2,15 +2,14 @@
 			display: grid;
 			grid-template-columns: auto auto auto auto;
 			grid-gap: 10px;
-
 		}
-		.grid_container > div {
+.grid_container > div {
 			background-color: purple;
 			text-align: center;
 			color: white;
 			padding: 30px;
 		}
-		.item1 {
+.item1 {
 			grid-column-start: 1;
 			grid-column-end: 4;
 			grid-row-start: 1;
@@ -18,17 +17,14 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-
 		}
-		.container2 {
+.container2 {
 			display: grid;
 			grid-template-columns: auto auto auto;
 			grid-gap: 10px;
 			height: 150px;
-
-
 		}
-		.container2 > div {
+.container2 > div {
 			background-color: purple;
 			text-align: center;
 			color: white;
@@ -36,4 +32,3 @@
 			align-items: center;
 			justify-content: center;
 		}
-		
