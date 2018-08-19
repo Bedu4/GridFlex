@@ -31,3 +31,78 @@ height: 400px;
   justify-content: center;
   height: 250px;
 }
+/*--------------------------------------------------------------------*/
+/*---------------------Ejercicio----2---------------------------------*/
+.Container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+}
+.ItemContainerBig{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap:5px;
+}
+.ItemContainerBig{
+  background-color: grey;
+  grid-column-start:1;
+  grid-column-end:4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  padding: 10px;
+}
+.ItemContainerBig_1{
+  grid-column-start:1;
+  grid-column-end:6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height: 20px;
+}
+.ItemContainerBig_2{
+  background-color: white;
+  grid-column-start:1;
+  grid-column-end:4;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  height: 309px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ItemContainerBig1{
+  background: white;
+  height: 99px;
+  grid-gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ItemContainersmall1{
+  background: Pink;
+  height: 290px;
+}
+.ItemContainersmall2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*---------------------------------------------------------------------*/
+.SquareItemRow1{
+  background: grey;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.title{
+  background: grey;
+}
+.Square{
+  background: white;
+  height: 150px;
+  width: 150px;
+}
+.Name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
